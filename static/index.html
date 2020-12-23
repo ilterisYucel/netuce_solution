@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>NTCTable Example</title>
+  <link rel="stylesheet" href="./css/NTCUIKit.css">
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript" src="./js/NTCTable.js"></script>
+  <style>
+  	html, body {margin:0px; padding:0px;width:100%;height:100%}
+		#left {float: left; width: 30%; height: 100%; background: blue; vertical-align: top;}
+		#right {float: right; width: 70%; height: 100%;background: green; vertical-align: top;}
+		#subs {padding-top: 7.5%; padding-bottom: 4.5%}
+	</style>
+</head>
+<body>
+	<div id="left">
+		<div style="color:white;padding: 2.5%;">
+			<h1>Sipariş detay</h1>
+			<div id="subs">
+				<h2>Firma adı</h2>
+				<p>Halil Pazarlama</p>
+			</div>
+			<div id="subs">
+				<h2>Adres</h2>
+				<p>Kozyatağı Mahallesi, Marmara Caddesi, Şale Apt. No:7 Kadıköy/İstanbul</p>
+			</div>
+			<div id="subs">
+				<h2>Telefon</h2>
+				<p>0090 0216 123 4567</p>
+			</div>
+			<div id="subs">
+				<h2>e-posta</h2>
+				<p>kapinizda@halilpazarlama.com</p>
+			</div>
+			<div id="subs">
+				<h2>Ünvan</h2>
+				<p>Halil Pazarlama İnş. Tah. Turz. Tic. Ltd. Şti.</p>
+			</div>
+			<div id="subs">
+				<h2>Fatura adresi</h2>
+				<p>Kozyatağı Mahallesi, Marmara Caddesi, Şale Apt. No:7 Kadıköy/İstanbul</p>
+			</div>
+			<div id="subs">
+				<h2>Vergi dairesi</h2>
+				<p>Büyük mükellefler vd.</p>
+			</div>
+			<div id="subs">
+				<h2>Vergi no</h2>
+				<p>123456789012</p>
+			</div>
+		</div>
+	</div>
+	<div id="right">
+		<div style="padding:5%;">
+			<div id="table" style="border:2px solid black;"></div>
+			<p id="total" style="padding:10%;"></p>
+		</div>
+	</div>
+ <script type="text/javascript" src="./js/index.js"></script>
+</body>
+</html>
